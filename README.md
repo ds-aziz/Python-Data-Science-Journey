@@ -1,6 +1,7 @@
+
 # Python & Data Science Core Learning Journey 🚀
 
-Welcome to my professional learning portfolio! This repository is a systematic, day-by-day track of my journey into Data Science and Python Development. It contains clean scripts, Jupyter Notebooks, and practical implementations of data wrangling, exploration, and visualization techniques.
+Welcome to my professional learning portfolio! This repository is a systematic, day-by-day track of my journey into Data Science and Python Development. It contains clean scripts, Jupyter Notebooks, and practical implementations of data wrangling, exploration, statistical foundations, and visualization techniques.
 
 ---
 
@@ -50,14 +51,29 @@ Here is the structured breakdown of the concepts and core skills I have mastered
   * Isolating numeric features to perform mathematical statistical analysis.
   * Generating Correlation Matrices via `.corr()` and visualizing deep patterns using annotated Heatmaps (`annot=True`, `cmap='coolwarm'`).
 
+### 🔹 Phase 4: Foundations of Statistics (ABCD of Statistics)
+
+* **`Day-14-Stats_Intro-&-Measurement_Levels`**
+  * Defining the role of Statistics as the factory engine of Data Science.
+  * Understanding the 4 basic scales of measurement via the **NOIR Framework** (Nominal, Ordinal, Interval, Ratio).
+* **`Day-15-Data_Types-&-Data_Structure-&-NOIR`**
+  * Deep dive into Categorical Data (Nominal, Ordinal, Boolean) and Variable tracking (Univariate, Bivariate, Multivariate).
+  * Mastering Data Structures: Structured (Tables/DataFrames), Unstructured (Text/Multimedia), and Semi-Structured (JSON/XML).
+* **`Day-16-Surrogate_Endpoints-&-Data_Errors-&-Reliability_Validity`**
+  * Proxies in Data Science: Implementing Surrogate Endpoints and mathematical breakdown: $\text{Observed Score} = \text{True Score} + \text{Error}$.
+  * Managing Random vs. Systematic errors, Type 1/Type 2 decision faults, and ensuring data trustworthiness via **Reliability**, **Validity**, and **Triangulation**.
+* **`Day-17-Data_Bias-&-Stats_Types-&-Population_Sample`**
+  * Identifying and preventing Data Bias (Sampling, Selection, Survivorship, Reporting, Historical) to avoid GIGO (Garbage In, Garbage Out).
+  * Categorizing Statistics into Descriptive (EDA) vs. Inferential (Hypothesis Testing) and mastering the **Population (Parameter)** vs. **Sample (Statistic)** distinction using Pandas `.sample()`.
+
 ---
 
 ## 🛠️ Tech Stack & Environment
 
-* **Language:** Python
+* **Language:** Python 3.x
 * **IDE:** Visual Studio Code (VS Code)
 * **Libraries:** Pandas, NumPy, Seaborn, Matplotlib
 
 ---
 
-*Maintained with 💡 by Aziz Ur Rehman*
+*Maintained with 💡 by [AZIZ_UR_REHMAN](https://github.com/dev-azizurrehman)* 🚀
